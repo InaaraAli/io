@@ -52,10 +52,10 @@ sections:
 - type: heading
   label: Configuration
 - type: directory
-  path: exampleSite
+  path: inaaraali
   label: Configuration
   create: all
-  match: "*.toml"
+  match: inaaraali.netlify.app
   new_doc_ext: toml
 upload_dir: exampleSite/static/images
 public_path: "/images"
