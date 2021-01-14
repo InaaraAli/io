@@ -7,7 +7,7 @@ sections:
 - type: heading
   label: Blog Post
 - type: directory
-  path: exampleSite/content/english/blog
+  path: inaaraali/content/english/blog
   label: Post (en)
   create: documents
   match: "**/*"
@@ -15,7 +15,7 @@ sections:
   templates:
   - post
 - type: directory
-  path: exampleSite/content/french/blog
+  path: inaaraali/content/french/blog
   label: Post (fr)
   create: documents
   match: "**/*"
@@ -24,14 +24,14 @@ sections:
 - type: heading
   label: Author
 - type: directory
-  path: exampleSite/content/english/author
+  path: inaaraali/content/english/author
   label: Author (en)
   create: documents
   match: "**/*"
   templates:
   - author
 - type: directory
-  path: exampleSite/content/french/author
+  path: inaaraali/content/french/author
   label: Author (fr)
   create: documents
   match: "**/*"
@@ -40,12 +40,12 @@ sections:
 - type: heading
   label: Data
 - type: directory
-  path: exampleSite/data
+  path: inaaraali/data
   label: Homepage
   create: all
   match: "**/*"
 - type: directory
-  path: exampleSite/i18n
+  path: inaaraali/i18n
   label: i18n
   create: documents
   match: "**/*"
@@ -55,7 +55,7 @@ sections:
   path: inaaraali
   label: Configuration
   create: all
-  match: inaaraali.netlify.app
+  match: ".toml"
   new_doc_ext: toml
 upload_dir: exampleSite/static/images
 public_path: "/images"
