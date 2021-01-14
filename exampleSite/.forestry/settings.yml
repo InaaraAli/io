@@ -7,7 +7,7 @@ sections:
 - type: heading
   label: Blog Post
 - type: directory
-  path: inaaraali/content/english/blog
+  path: exampleSite/content/english/blog
   label: Post (en)
   create: documents
   match: "**/*"
@@ -15,7 +15,7 @@ sections:
   templates:
   - post
 - type: directory
-  path: inaaraali/content/french/blog
+  path: exampleSite/content/french/blog
   label: Post (fr)
   create: documents
   match: "**/*"
@@ -24,14 +24,14 @@ sections:
 - type: heading
   label: Author
 - type: directory
-  path: inaaraali/content/english/author
+  path: exampleSite/content/english/author
   label: Author (en)
   create: documents
   match: "**/*"
   templates:
   - author
 - type: directory
-  path: inaaraali/content/french/author
+  path: exampleSite/content/french/author
   label: Author (fr)
   create: documents
   match: "**/*"
@@ -40,19 +40,19 @@ sections:
 - type: heading
   label: Data
 - type: directory
-  path: inaaraali/data
+  path: exampleSite/data
   label: Homepage
   create: all
   match: "**/*"
 - type: directory
-  path: inaaraali/i18n
+  path: exampleSite/i18n
   label: i18n
   create: documents
   match: "**/*"
 - type: heading
   label: Configuration
 - type: directory
-  path: inaaraali
+  path: exampleSite
   label: Configuration
   create: all
   match: ".toml"
