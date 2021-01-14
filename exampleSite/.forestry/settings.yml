@@ -55,7 +55,7 @@ sections:
   path: exampleSite
   label: Configuration
   create: all
-  match: ".toml"
+  match: config.toml
   new_doc_ext: toml
 upload_dir: inaaraali/static/images
 public_path: "/images"
